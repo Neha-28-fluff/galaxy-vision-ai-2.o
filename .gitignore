@@ -1,0 +1,27 @@
+# Virtual env
+.venv/
+venv/
+
+# Data (never commit raw/processed data or images)
+data/raw/
+data/processed/
+data/**/images/
+*.zip
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+access_token
+
+# Model weights & training artifacts
+*.pth
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
